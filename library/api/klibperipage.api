@@ -1,0 +1,33 @@
+public abstract interface class org/jraf/klibperipage/Peripage {
+	public abstract fun connect (Lkotlin/jvm/functions/Function2;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public abstract interface class org/jraf/klibperipage/Peripage$CanPrintImageFilePrinter : org/jraf/klibperipage/Peripage$Printer {
+	public abstract fun printImage (Lkotlinx/io/files/Path;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public abstract interface class org/jraf/klibperipage/Peripage$Printer {
+	public static final field A6_ROW_BYTES I
+	public static final field A6_ROW_WIDTH I
+	public static final field Companion Lorg/jraf/klibperipage/Peripage$Printer$Companion;
+	public abstract fun lineFeed-0ky7B_Q (BLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public abstract fun printImage ([BLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class org/jraf/klibperipage/Peripage$Printer$Companion {
+	public static final field A6_ROW_BYTES I
+	public static final field A6_ROW_WIDTH I
+}
+
+public abstract interface class org/jraf/klibperipage/Peripage$PrinterConnection {
+	public abstract fun getPrinter ()Lorg/jraf/klibperipage/Peripage$Printer;
+}
+
+public final class org/jraf/klibperipage/Peripage_jvmKt {
+	public static final fun Peripage ()Lorg/jraf/klibperipage/Peripage;
+}
+
+public final class org/jraf/klibperipage/VersionKt {
+	public static final field VERSION Ljava/lang/String;
+}
+

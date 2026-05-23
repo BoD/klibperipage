@@ -1,0 +1,37 @@
+// Klib ABI Dump
+// Targets: [macosArm64]
+// Rendering settings:
+// - Signature version: 2
+// - Show manifest properties: true
+// - Show declarations: true
+
+// Library unique name: <org.jraf.klibperipage:klibperipage>
+abstract interface <#A: out org.jraf.klibperipage/Peripage.Printer> org.jraf.klibperipage/Peripage { // org.jraf.klibperipage/Peripage|null[0]
+    abstract suspend fun connect(kotlin.coroutines/SuspendFunction1<org.jraf.klibperipage/Peripage.PrinterConnection<#A>, kotlin/Unit>) // org.jraf.klibperipage/Peripage.connect|connect(kotlin.coroutines.SuspendFunction1<org.jraf.klibperipage.Peripage.PrinterConnection<1:0>,kotlin.Unit>){}[0]
+
+    abstract interface <#A1: out org.jraf.klibperipage/Peripage.Printer> PrinterConnection { // org.jraf.klibperipage/Peripage.PrinterConnection|null[0]
+        abstract val printer // org.jraf.klibperipage/Peripage.PrinterConnection.printer|{}printer[0]
+            abstract fun <get-printer>(): #A1 // org.jraf.klibperipage/Peripage.PrinterConnection.printer.<get-printer>|<get-printer>(){}[0]
+    }
+
+    abstract interface CanPrintImageFilePrinter : org.jraf.klibperipage/Peripage.Printer { // org.jraf.klibperipage/Peripage.CanPrintImageFilePrinter|null[0]
+        abstract suspend fun printImage(kotlinx.io.files/Path) // org.jraf.klibperipage/Peripage.CanPrintImageFilePrinter.printImage|printImage(kotlinx.io.files.Path){}[0]
+    }
+
+    abstract interface Printer { // org.jraf.klibperipage/Peripage.Printer|null[0]
+        abstract suspend fun lineFeed(kotlin/UByte) // org.jraf.klibperipage/Peripage.Printer.lineFeed|lineFeed(kotlin.UByte){}[0]
+        abstract suspend fun printImage(kotlin/ByteArray) // org.jraf.klibperipage/Peripage.Printer.printImage|printImage(kotlin.ByteArray){}[0]
+
+        final object Companion { // org.jraf.klibperipage/Peripage.Printer.Companion|null[0]
+            final const val A6_ROW_BYTES // org.jraf.klibperipage/Peripage.Printer.Companion.A6_ROW_BYTES|{}A6_ROW_BYTES[0]
+                final fun <get-A6_ROW_BYTES>(): kotlin/Int // org.jraf.klibperipage/Peripage.Printer.Companion.A6_ROW_BYTES.<get-A6_ROW_BYTES>|<get-A6_ROW_BYTES>(){}[0]
+            final const val A6_ROW_WIDTH // org.jraf.klibperipage/Peripage.Printer.Companion.A6_ROW_WIDTH|{}A6_ROW_WIDTH[0]
+                final fun <get-A6_ROW_WIDTH>(): kotlin/Int // org.jraf.klibperipage/Peripage.Printer.Companion.A6_ROW_WIDTH.<get-A6_ROW_WIDTH>|<get-A6_ROW_WIDTH>(){}[0]
+        }
+    }
+}
+
+final val org.jraf.klibperipage/VERSION // org.jraf.klibperipage/VERSION|{}VERSION[0]
+    final fun <get-VERSION>(): kotlin/String // org.jraf.klibperipage/VERSION.<get-VERSION>|<get-VERSION>(){}[0]
+
+final fun org.jraf.klibperipage/Peripage(): org.jraf.klibperipage/Peripage<org.jraf.klibperipage/Peripage.Printer> // org.jraf.klibperipage/Peripage|Peripage(){}[0]
