@@ -3,22 +3,22 @@
   <groupId>org.jraf.klibperipage</groupId>
   <artifactId>kdoc</artifactId>
   <versioning>
-    <lastUpdated>20260525102718</lastUpdated>
+    <lastUpdated>20260525102824</lastUpdated>
     <snapshot>
-      <timestamp>20260525.102718</timestamp>
+      <timestamp>20260525.102824</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>1.0.0-20260525.102718-1</value>
-        <updated>20260525102718</updated>
+        <extension>pom</extension>
+        <value>1.0.0-20260525.102824-1</value>
+        <updated>20260525102824</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0.0-20260525.102718-1</value>
-        <updated>20260525102718</updated>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>1.0.0-20260525.102824-1</value>
+        <updated>20260525102824</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
