@@ -1,0 +1,5 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:org.jraf.klibperipage//Peripage/#/PointingToDeclaration/klibperipage/org.jraf.klibperipage/[native]-peripage.html
+module:klibperipage
+org.jraf.klibperipage

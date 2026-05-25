@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../klibperipage/1.0.0-SNAPSHOT/klibperipage-1.0.0-SNAPSHOT.module",
+    "group": "org.jraf.klibperipage",
+    "module": "klibperipage",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibperipage-jvm-1.0.0-SNAPSHOT.jar",
+          "url": "klibperipage-jvm-1.0.0-SNAPSHOT.jar",
+          "size": 29128,
+          "sha512": "9cd45083570ee39ee8af3c7096442abf3eaeb7b82d52b2f4c026913b5b2e6e5125cd2856709d7a2e4b98ce295f9eefd94028bded1d3cc3f5990392bf1f324663",
+          "sha256": "c20962d85d3769b680fe2da8f7dfb2d7927a1c94466d3b12f477372fffc7a8ff",
+          "sha1": "e1ef7a957d64db11ccfb188b93da9e8683ddb4ac",
+          "md5": "198cd95581da5fcfa8e7ce6e4d0464b9"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "com.juul.kable",
+          "module": "kable-core",
+          "version": {
+            "requires": "0.43.0"
+          }
+        },
+        {
+          "group": "org.jraf.klibnanolog",
+          "module": "klibnanolog",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibperipage-jvm-1.0.0-SNAPSHOT.jar",
+          "url": "klibperipage-jvm-1.0.0-SNAPSHOT.jar",
+          "size": 29128,
+          "sha512": "9cd45083570ee39ee8af3c7096442abf3eaeb7b82d52b2f4c026913b5b2e6e5125cd2856709d7a2e4b98ce295f9eefd94028bded1d3cc3f5990392bf1f324663",
+          "sha256": "c20962d85d3769b680fe2da8f7dfb2d7927a1c94466d3b12f477372fffc7a8ff",
+          "sha1": "e1ef7a957d64db11ccfb188b93da9e8683ddb4ac",
+          "md5": "198cd95581da5fcfa8e7ce6e4d0464b9"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "klibperipage-jvm-1.0.0-SNAPSHOT-sources.jar",
+          "url": "klibperipage-jvm-1.0.0-SNAPSHOT-sources.jar",
+          "size": 9672,
+          "sha512": "36f2561e2495c0fdf21de16370cb2d53d04038b9630061a920d4f8c99024461a40c679644c1ef364191acccd08bc20f95e3680a129412b7b36f39140e5231f05",
+          "sha256": "029a55411a572f9e7c2c8e172d54c16f96c4824525cbdd8b8b7b2602f0092149",
+          "sha1": "e865fc67d2bb9e015842a50ff62bec18665c7ca4",
+          "md5": "64875049b697d316d4156c6319ab669c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+sourceset_dependencies = '{":klibperipage/appleMain":[":klibperipage/nativeMain"],":klibperipage/commonMain":[],":klibperipage/jvmMain":[":klibperipage/commonMain"],":klibperipage/macosArm64Main":[":klibperipage/macosMain"],":klibperipage/macosMain":[":klibperipage/appleMain"],":klibperipage/nativeMain":[":klibperipage/commonMain"]}'

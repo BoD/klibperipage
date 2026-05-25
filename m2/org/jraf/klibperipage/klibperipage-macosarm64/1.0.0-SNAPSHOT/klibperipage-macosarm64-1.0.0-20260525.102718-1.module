@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../klibperipage/1.0.0-SNAPSHOT/klibperipage-1.0.0-SNAPSHOT.module",
+    "group": "org.jraf.klibperipage",
+    "module": "klibperipage",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.juul.kable",
+          "module": "kable-core",
+          "version": {
+            "requires": "0.43.0"
+          }
+        },
+        {
+          "group": "org.jraf.klibnanolog",
+          "module": "klibnanolog",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibperipage-macosArm64Main-1.0.0-SNAPSHOT.klib",
+          "url": "klibperipage-macosarm64-1.0.0-SNAPSHOT.klib",
+          "size": 19027,
+          "sha512": "02d99e5448fbf05c515556d95bc05506432cc58e4c690ddb9d4ecd576d2c023d282450fd96c5157b399cd8801733d92a335d10c2b4b1688c35a6cedc630b07e3",
+          "sha256": "f4373ff20e27d74d0204a2e6b36e6bc8e072aa5e5aebeccaf1bd76ee8267ff8c",
+          "sha1": "0f1d809b71af680aeb802137561078565126d594",
+          "md5": "6c37ee311b2f847fc89254b940ad8d0b"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "klibperipage-macosarm64-1.0.0-SNAPSHOT-sources.jar",
+          "url": "klibperipage-macosarm64-1.0.0-SNAPSHOT-sources.jar",
+          "size": 8205,
+          "sha512": "76a2ec569fa4184933c9fb173e025efb114c4ca97a33923a5edcb1295e3b6269d192ba4ddf235d5b441b7a125175a0ab88f2bff4154653e83192bc252481bcad",
+          "sha256": "bd76debb626c8513259c1e8a045e70bfe25a857c11dcce93a3d6a12ae45e47bd",
+          "sha1": "48d70485b6c19ad013851d13b056bc9dca0d8026",
+          "md5": "7721ee486a8337c28f50f16c026e0050"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.juul.kable",
+          "module": "kable-core",
+          "version": {
+            "requires": "0.43.0"
+          }
+        },
+        {
+          "group": "org.jraf.klibnanolog",
+          "module": "klibnanolog",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibperipage-macosarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "url": "klibperipage-macosarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
