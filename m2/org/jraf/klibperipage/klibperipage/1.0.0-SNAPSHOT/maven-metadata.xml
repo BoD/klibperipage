@@ -3,44 +3,44 @@
   <groupId>org.jraf.klibperipage</groupId>
   <artifactId>klibperipage</artifactId>
   <versioning>
-    <lastUpdated>20260711133446</lastUpdated>
+    <lastUpdated>20260711133559</lastUpdated>
     <snapshot>
-      <timestamp>20260711.133446</timestamp>
+      <timestamp>20260711.133559</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>1.0.0-20260711.133446-1</value>
-        <updated>20260711133446</updated>
+        <classifier>kotlin-tooling-metadata</classifier>
+        <extension>json</extension>
+        <value>1.0.0-20260711.133559-1</value>
+        <updated>20260711133559</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.0.0-20260711.133446-1</value>
-        <updated>20260711133446</updated>
+        <extension>pom</extension>
+        <value>1.0.0-20260711.133559-1</value>
+        <updated>20260711133559</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>1.0.0-20260711.133446-1</value>
-        <updated>20260711133446</updated>
+        <value>1.0.0-20260711.133559-1</value>
+        <updated>20260711133559</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <classifier>kotlin-tooling-metadata</classifier>
-        <extension>json</extension>
-        <value>1.0.0-20260711.133446-1</value>
-        <updated>20260711133446</updated>
+        <extension>jar</extension>
+        <value>1.0.0-20260711.133559-1</value>
+        <updated>20260711133559</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.0.0-20260711.133446-1</value>
-        <updated>20260711133446</updated>
+        <value>1.0.0-20260711.133559-1</value>
+        <updated>20260711133559</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0.0-20260711.133446-1</value>
-        <updated>20260711133446</updated>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.0.0-20260711.133559-1</value>
+        <updated>20260711133559</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
