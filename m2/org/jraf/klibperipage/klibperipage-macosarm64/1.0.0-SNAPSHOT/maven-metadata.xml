@@ -3,44 +3,44 @@
   <groupId>org.jraf.klibperipage</groupId>
   <artifactId>klibperipage-macosarm64</artifactId>
   <versioning>
-    <lastUpdated>20260525102824</lastUpdated>
+    <lastUpdated>20260711133446</lastUpdated>
     <snapshot>
-      <timestamp>20260525.102824</timestamp>
+      <timestamp>20260711.133446</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>1.0.0-20260525.102824-1</value>
-        <updated>20260525102824</updated>
+        <extension>klib</extension>
+        <value>1.0.0-20260711.133446-1</value>
+        <updated>20260711133446</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>klib</extension>
-        <value>1.0.0-20260525.102824-1</value>
-        <updated>20260525102824</updated>
+        <extension>module</extension>
+        <value>1.0.0-20260711.133446-1</value>
+        <updated>20260711133446</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>1.0.0-20260525.102824-1</value>
-        <updated>20260525102824</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0.0-20260525.102824-1</value>
-        <updated>20260525102824</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.0.0-20260525.102824-1</value>
-        <updated>20260525102824</updated>
+        <value>1.0.0-20260711.133446-1</value>
+        <updated>20260711133446</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.0-20260525.102824-1</value>
-        <updated>20260525102824</updated>
+        <value>1.0.0-20260711.133446-1</value>
+        <updated>20260711133446</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-20260711.133446-1</value>
+        <updated>20260711133446</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>1.0.0-20260711.133446-1</value>
+        <updated>20260711133446</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
