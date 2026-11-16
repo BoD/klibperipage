@@ -1,0 +1,183 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jraf.klibperipage",
+    "module": "klibperipage",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io-core",
+          "version": {
+            "requires": "0.9.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "klibperipage-metadata-1.0.0-SNAPSHOT.jar",
+          "url": "klibperipage-1.0.0-SNAPSHOT.jar",
+          "size": 5848,
+          "sha512": "3bc4d705c97002d9bb2cd0db0d7c06aca5437e29a4c300222e4dbff16c06866975a7016ce2b5dafc4b393c92b68d6562231a4193138a820e2b894b93e16dc015",
+          "sha256": "fc69f4faa604e5db0d8eff6e96999726650eaf27bd88d2698ebcd517085fbf60",
+          "sha1": "9daecd03d3f7f711cb2ac78cb58f8ec3e73953fb",
+          "md5": "eccdb7b3d84e9443cde4862cdbe03dd1"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "klibperipage-kotlin-1.0.0-SNAPSHOT-sources.jar",
+          "url": "klibperipage-1.0.0-SNAPSHOT-sources.jar",
+          "size": 6920,
+          "sha512": "f7d0f43346f9187af8ed0606d4ca47b53877651beb3be1b144cfc70bcd52eebcd9709c08a73df01c39ddabfb31bbcb405199d4d2ff76e9442353f02464b881ca",
+          "sha256": "d4e9bb77e71fd3d88386a37621ec88a85d639936cfa1174e464578f58a65e922",
+          "sha1": "5e9bd9fe0ab2d8ff06ed6c74922f9218fe7c7bcd",
+          "md5": "8dfd22d0f96a3c575a93221b4fd1ab14"
+        }
+      ]
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../klibperipage-jvm/1.0.0-SNAPSHOT/klibperipage-jvm-1.0.0-SNAPSHOT.module",
+        "group": "org.jraf.klibperipage",
+        "module": "klibperipage-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../klibperipage-jvm/1.0.0-SNAPSHOT/klibperipage-jvm-1.0.0-SNAPSHOT.module",
+        "group": "org.jraf.klibperipage",
+        "module": "klibperipage-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../klibperipage-jvm/1.0.0-SNAPSHOT/klibperipage-jvm-1.0.0-SNAPSHOT.module",
+        "group": "org.jraf.klibperipage",
+        "module": "klibperipage-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../klibperipage-macosarm64/1.0.0-SNAPSHOT/klibperipage-macosarm64-1.0.0-SNAPSHOT.module",
+        "group": "org.jraf.klibperipage",
+        "module": "klibperipage-macosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../klibperipage-macosarm64/1.0.0-SNAPSHOT/klibperipage-macosarm64-1.0.0-SNAPSHOT.module",
+        "group": "org.jraf.klibperipage",
+        "module": "klibperipage-macosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../klibperipage-macosarm64/1.0.0-SNAPSHOT/klibperipage-macosarm64-1.0.0-SNAPSHOT.module",
+        "group": "org.jraf.klibperipage",
+        "module": "klibperipage-macosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    }
+  ]
+}
