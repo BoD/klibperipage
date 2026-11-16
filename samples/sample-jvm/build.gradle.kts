@@ -8,6 +8,7 @@ dependencies {
 
   // Logging
   implementation(libs.klibnanolog)
+  implementation(libs.logback)
 
   // Library
   implementation(project(":klibperipage"))
